@@ -6,13 +6,13 @@ Microsoft Hackathon
 The Weather Forecasting Tool is a command line tool that accepts a city's name as input and returns the current weather forecast. It leverages the OpenWeatherMap API to fetch weather data and parse it using Python.
 
 
-# THE ARCHITECTURAL FLOW OF THE CODE IS:
+### THE ARCHITECTURAL FLOW OF THE CODE IS:
 
 Weather Forecast CLI Tool
 
 This command line tool accepts a city name as input and returns the current weather forecast for that city. It leverages the OpenWeatherMap API to fetch weather data and parses it using Python.
 
-# Architecture Flow:
+### Architecture Flow:
 
 1. User Input:
    - The tool prompts the user to enter a city name through the command line.
