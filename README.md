@@ -1,5 +1,5 @@
 # Precise Weather
-# CODE-MAVERICK
+## CODE-MAVERICK
 Microsoft Hackathon
 # Weather Forecasting Tool
 
