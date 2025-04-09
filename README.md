@@ -79,10 +79,10 @@ Pressure: 1013 hPa
 ```
 ## 👥 Team
 👩‍💻 Tanusree Saha
-GitHub: imtanusreesaha
+GitHub: @imtanusreesaha
 
 👨‍💻 Aditya Akhouri
-GitHub: Adityaakhouri
+GitHub: @Adityaakhouri
 
 Proudly built by Team CODE MAVERICK 🚀
 
