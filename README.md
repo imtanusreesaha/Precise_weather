@@ -84,7 +84,6 @@ GitHub: @imtanusreesaha
 👨‍💻 Aditya Akhouri
 GitHub: @Adityaakhouri
 
-Proudly built by Team CODE MAVERICK 🚀
 
 ---
 
