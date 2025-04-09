@@ -1,51 +1,100 @@
 # Precise Weather
 ## CODE-MAVERICK
 Microsoft Hackathon
-# Weather Forecasting Tool
 
-The Weather Forecasting Tool is a command line tool that accepts a city's name as input and returns the current weather forecast. It leverages the OpenWeatherMap API to fetch weather data and parse it using Python.
+# 🌦️ Precise Weather Forecasting Tool
 
+A command-line application that fetches and displays current weather data for any city using the **OpenWeatherMap API**. Developed as part of **Microsoft Hackathon - CODE MAVERICK**, this tool demonstrates API integration, JSON parsing, and real-time data handling using Python.
 
-### THE ARCHITECTURAL FLOW OF THE CODE IS:
+## 🔧 Features
 
-Weather Forecast CLI Tool
+- 🌍 Fetches real-time weather data by city name  
+- 🌡️ Displays temperature, humidity, and pressure  
+- ⚙️ Uses **OpenWeatherMap API** for reliable forecasts  
+- 🧰 Lightweight, fast, and easy to use from the command line  
 
-This command line tool accepts a city name as input and returns the current weather forecast for that city. It leverages the OpenWeatherMap API to fetch weather data and parses it using Python.
+## 🧭 Architecture Flow
 
-### Architecture Flow:
+```
+User Input → API Request → JSON Parsing → Data Extraction → Weather Output
+```
 
-1. User Input:
-   - The tool prompts the user to enter a city name through the command line.
+1. **User Input**: Prompt for city name via CLI  
+2. **API Request**: Constructs API URL & sends HTTP GET request  
+3. **Data Parsing**: Parses JSON response into Python dictionary  
+4. **Display Output**: Shows temperature, humidity, and pressure  
 
-2. API Request:
-   - The city name provided by the user is used to construct an API URL for the OpenWeatherMap API.
-   - The tool makes an HTTP GET request to the API URL using the `requests` module.
-   - If the API request is successful (HTTP status code 200), the response content is obtained.
+---
 
-3. Data Parsing:
-   - The response content, in JSON format, is parsed using the `json` module's `loads()` function.
-   - The parsed data is stored in a Python dictionary.
+## 💻 Usage
 
-4. Data Display:
-   - If the weather data dictionary is not empty, the tool displays the current weather information for the city.
-   - The temperature, humidity, and pressure are extracted from the weather data dictionary and printed on the command line.
-   - If the weather data dictionary is empty, a message is displayed indicating that weather data for the city could not be found.
+### 🔧 Prerequisites
 
-Usage:
+- Python installed on your system  
+- Install dependencies:  
+```bash
+pip install requests
+```
 
-1. Install Dependencies:
-   - Ensure that Python is installed on your system.
-   - Install the `requests` module by running `pip install requests` in your terminal.
+- Obtain a free API key from [OpenWeatherMap](https://openweathermap.org/api)
 
-2. Obtain an API Key:
-   - Sign up on the OpenWeatherMap website to obtain an API key.
-   - Replace `"YOUR_API_KEY"` in the Python code with your actual API key.
+### 🚀 Running the Tool
 
-3. Run the Tool:
-   - Open a terminal and navigate to the directory where the Python script is located.
-   - Run the script by executing the command `python weather_forecast.py`.
-   - Enter the name of the city for which you want to retrieve the weather forecast.
-   - The tool will display the current weather information if available.
+1. Replace `"YOUR_API_KEY"` in the script with your actual API key  
+2. Open terminal and navigate to the script folder  
+3. Run the tool:  
+```bash
+python weather.py
+```
+4. Enter a city name when prompted  
+5. Get the current weather details instantly  
 
-Note: The tool uses the metric system for temperature (°C) and pressure (hPa).
+> 🌡️ *Note: Uses metric units – Temperature (°C), Pressure (hPa)*
+
+---
+
+## 🧰 Tech Stack
+
+- Python  
+- Requests (HTTP library)  
+- JSON parsing  
+
+---
+
+## 📁 Project Structure
+
+```
+├── weather.py            # Main script
+├── weather.jpg           # Optional: Weather banner
+└── README.md             # Project documentation
+```
+
+---
+
+## 📸 Sample Output
+
+```
+Enter city name: London
+Temperature: 15°C
+Humidity: 72%
+Pressure: 1013 hPa
+```
+## 👥 Team
+👩‍💻 Tanusree Saha
+GitHub: imtanusreesaha
+
+👨‍💻 Aditya Akhouri
+GitHub: Adityaakhouri
+
+Proudly built by Team CODE MAVERICK 🚀
+
+---
+
+## 📜 License
+
+This project is open source under the [MIT License](LICENSE).
+
+---
+
+Let me know if you’d like help with a logo, badges (e.g., Python version, license), or adding GitHub Actions for CI!
 
