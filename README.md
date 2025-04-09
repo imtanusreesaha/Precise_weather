@@ -1,5 +1,5 @@
-# Precise Weather
-# Built by Team CODE MAVERICK 🚀 for the Microsoft Hackathon
+## Precise Weather
+# Built by Team Code Maverick 🚀 for the Microsoft Hackathon
 
 # 🌦️ Precise Weather Forecasting Tool
 
